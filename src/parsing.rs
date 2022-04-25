@@ -245,7 +245,6 @@ pub fn get_es_config(jsx: bool) -> EsConfig {
     decorators_before_export: false,
     fn_bind: false,
     import_assertions: true,
-    static_blocks: true,
     private_in_object: true,
     allow_super_outside_method: true,
   }
